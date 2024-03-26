@@ -1,0 +1,16 @@
+.shiny{
+    padding-top: 6px;
+    height: 20px;
+    margin: 1px;
+    color: rgb(224, 193, 16);
+}
+.dim:hover{
+    color: rgb(249, 234, 36);
+}
+
+.dim{
+    padding-top: 6px;
+    height: 20px;
+    margin: 1px;
+    color: rgb(54, 54, 53);
+}

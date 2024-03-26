@@ -1,0 +1,178 @@
+*{
+    justify-content: center;
+}
+
+.original{
+    background-color: rgba(232, 249, 164, 0.984);
+}
+.lightPink{
+    background-color: rgba(255, 198, 180, 0.938);    
+}
+.lightBlue{
+    background-color: rgba(192, 238, 243, 0.864);
+}
+
+.createItems,.noInput{
+    justify-content: center;
+    transform: translateX(20px);
+}
+.createItems .noInput input {
+    border-color: rgb(251, 132, 132);
+    border-width: 2.5px;
+}
+.noInput input::placeholder{
+    color: rgb(248, 50, 50);
+}
+.createItems,.noInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    width: max-content;
+    
+}
+.createItems input{
+    justify-content: center;
+    width: 330px;
+    border-width: 2px;
+    box-shadow: 2px 2px 1px rgb(187, 187, 187);
+    border-color: rgb(248, 251, 251);
+    color: rgb(117, 116, 116);
+    font-size: 15px;
+    background-color: rgb(254, 243, 230);
+}
+.createItems h1{
+    transform: translate(20px);
+    text-align: center;
+}
+.themeSetter{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 22px;
+    background-color: rgb(254, 243, 230);
+}
+.shirt{
+    background-color: rgba(252, 255, 255, 0);
+}
+.createItemsButtons{
+    padding: auto;
+    margin: 10px;
+    display: flex;
+}
+.createItemsButtons button{
+    height: 30px;
+    width: 80px;
+}
+.green{
+    color: rgb(24, 117, 24);
+    font-size: 15px;
+    background-color: rgb(190, 223, 141);
+}
+.red{
+    color: rgb(148, 3, 3);
+    font-size: 15px;
+    background-color: rgb(247, 162, 162);
+}
+.blue{
+    color: rgb(65, 137, 220);
+    font-size: 15px;
+    background-color: rgb(198, 238, 250);
+}
+.green:hover{    
+    background-color: rgba(175, 241, 76, 0.995);
+}
+.red:hover{
+    background-color: rgb(251, 102, 102);
+}
+.blue:hover{
+    background-color: rgba(137, 221, 247, 0.851);
+}
+.green:focus{
+    transition-duration: 1s;
+    font-size: 16px;
+    background-color: rgb(132, 202, 28);
+}
+.red:focus{
+    transition-duration: 1s;
+    font-size: 16px;
+    background-color: rgb(245, 51, 51);
+}
+.blue:focus{
+    transition-duration: 1s;
+    font-size: 16px;
+    background-color: rgb(76, 204, 243);
+}
+/*-----------------------------------------------------*/
+
+/*-----------------------------------------------------*/
+.SearchItems{
+    padding-top: 30px;
+    background-color: rgba(63, 63, 63, 0.164);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.SearchItemsButtons{
+    background-color: rgba(252, 182, 204, 0.045);
+    padding: auto;
+    margin: 10px;
+    display: flex;   
+}
+.SearchItemsButtons button{
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+}
+.SearchItems input{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: auto;
+    justify-content: center;
+    width: 220px;
+    border-width: 2px;
+    box-shadow: 2px 2px 1px rgb(187, 187, 187);
+    border-color: rgb(248, 251, 251);
+    color: rgb(117, 116, 116);
+    font-size: 15px;
+    background-color: rgb(254, 243, 230);
+}
+
+/*----------------------------------------------*/
+
+.DisplayItems{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(248, 245, 245, 0.401);
+    width: 100%;
+
+}
+.listItems{
+    margin-top: 5px;
+    height: 130px;
+    width: 240px;
+}
+.listHolder{
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(254, 243, 230);
+    width: fit-content;
+    margin: 25px;
+    box-shadow: 4px 4px 2px rgb(198, 196, 196);
+}
+.deleteButton{
+    margin: auto;
+    padding: 25px;
+    height: 20px;
+    color: rgb(249, 39, 74);
+
+}
+.deleteButton:hover{
+    color: rgb(197, 22, 3);
+
+}
